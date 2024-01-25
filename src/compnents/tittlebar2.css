@@ -1,0 +1,137 @@
+.header2{ 
+    margin: 0px;
+    display: flex;
+    /* border: 3px solid black; */
+    height: 3.7rem;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#0079FF;
+    color: white;
+    position: relative;
+}
+.lable{
+    font-size: 23px;
+    
+    font-style: normal;
+    margin-left: 36px;
+    /* border: 2px solid black; */
+    width: 8rem;
+}
+.searchbar3{
+    margin-top: 8px;
+ /* border: 3px solid black; */
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 3.3rem;
+ background-color: #0079FF;
+}
+.searchbar4{
+    /* border: 3px solid black; */
+    display: flex;
+    width: 23rem;
+     height: 2.4rem;
+     justify-content: center;
+     align-items: center;
+     border-radius: 8px;
+     background-color: white;
+}
+.icon2{
+    font: 1.5em sans-serif;
+    margin-top: 4.5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.input2{
+    width: 20rem;
+    height:2.4rem ;
+    background: white;
+    border: 0px;
+
+}
+.input2::placeholder{
+    font: 1.2em sans-serif;
+}
+.input2:focus{
+    outline: none;
+}
+@media screen and (max-width:390px){
+    .lable{
+        font-size: 21px;
+        margin-left: 20px;
+    }
+    .il{
+       font: 0.86em sans-serif;
+    }
+    .searchbar4{
+       /* border: 3px solid black;  */
+       width: 19rem;
+        
+    }
+    .icon2{
+        font: 1.4em sans-serif;
+    }
+    .input2{
+        width: 16rem;
+        /* border: 2px solid black; */
+    }
+    .input2::placeholder{
+        font: 1.1em sans-serif;
+    }
+    
+}
+.Dropdown2{
+    position: absolute;
+    background-color:white ;
+    color: black;
+    top: 2.45rem;
+    width:10rem ;
+    height: 13rem;
+    left: 0.40rem;
+    z-index: 1;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+.login{
+    display: flex;
+    justify-content: space-between;
+}
+.Dropdown2 li{
+ 
+   display: flex;
+   align-items: center;
+    height: 41px;
+    width: 10rem;
+    border-bottom: 0.1px solid rgb(193, 191, 191);
+    background-color: white;
+}
+
+
+.link> .ic{
+   font: 1.15em sans-serif;
+   margin-left: 10px;
+   margin-right: 9px;
+}
+.link> p{
+    font-size: 17px;
+}
+.login p{
+    font-size: 16px;
+    margin-left: 8px;
+}
+.login a{
+    margin-right: 5px;
+    font-size: 17px;
+    color: #0079FF;
+}
+
+.triangle{
+     height: 18px;
+     width: 18px;
+     position: absolute;
+     background-color: white;
+     top: 30px;
+     left: 69px;
+     transform: rotate(45deg);
+     z-index: 0;
+     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}

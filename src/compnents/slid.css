@@ -1,0 +1,136 @@
+ .slide2 img{
+    z-index: 0;
+    
+    width: 94.95rem;
+    
+    height: 18rem;
+    background-size: cover;
+}
+.slide2{ 
+    /* border: 2px solid black; */
+    overflow-x: hidden;
+    margin-top: 9px;
+    margin-bottom: 9px;
+   /* background-image:cover ; */
+   background-color: white;
+   display: flex;
+   justify-content: center;
+   position: relative;
+    box-shadow: 0 3px 6px rgba(247, 245, 245, 0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+.bu1{
+    z-index: 20;
+    position: absolute;
+    left: 7px;
+    top: 4.8rem;
+    height: 110px;
+    width: 56px;
+    background-color: white;
+   
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.bu2{
+   
+    z-index: 20;
+    position: absolute;
+    left: 95.85%;
+    top: 4.8rem;
+    height: 110px;
+    width: 56px;
+   
+    background-color: white;
+  
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+.dot{
+    position: absolute;
+    top: 90%;
+    left: 45%;
+}
+.af{
+    font: 2em sans-serif;
+}
+@media screen and (max-width: 1330px){
+    .bu1{
+        left: 0px;
+    }
+    .bu2{
+        left: 95.23%;  
+    }
+}
+@media screen and (max-width: 945px){
+     .slide2 img{
+        
+        width: 60rem;
+         height: 17rem;
+        
+    }
+    .bu1{
+        height: 90px;
+      width: 50px;
+        left: 0px;
+    }
+    .bu2{
+        height: 90px;
+         width: 50px;
+        left: 94.55%;  
+    }
+}
+@media screen and (max-width: 805px){
+    .slide2 img{
+        width: 49rem;
+    }
+    .bu2{
+       left: 93.7%;
+    }
+}
+@media screen and (max-width: 605px){
+    .slide2 img{
+        width: 37rem;
+        height: 11rem;
+    }
+    .bu1{
+        top: 3rem;
+        height: 75px;
+         width: 40px;
+        left: 0px;
+    }
+    .bu2{
+        top: 3rem;
+        height: 75px;
+         width: 40px;
+        left: 93.4%;  
+    }
+}
+@media screen and (max-width: 505px){
+    .slide2 img{
+        width: 30.5rem;
+        height: 9rem;
+    }
+    .bu1{
+        top: 2.4rem;
+        height: 50px;
+         width: 30px;
+        left: 0px;
+    }
+    .bu2{
+        top: 2.4rem;
+        height: 50px;
+         width: 30px;
+        left: 93%;  
+    }
+    .af{
+        font: 1.5em sans-serif;
+    }
+}
+@media screen and (max-width: 405px){
+    .slide2 img{
+        width: 27rem;
+        height: 9rem;
+    }
+    .bu2{
+        left: 92.5%; 
+    }
+}
